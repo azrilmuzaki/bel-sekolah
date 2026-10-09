@@ -4,8 +4,8 @@
 a = Analysis(
     ['main.py'],
     pathex=[],
-    binaries=[],
-    datas=[('jam1.mp3', '.'), ('jam2.mp3', '.'), ('jam3.mp3', '.'), ('jam4.mp3', '.'), ('jam5.mp3', '.'), ('jam6.mp3', '.'), ('jam7.mp3', '.'), ('istirahat1.mp3', '.'), ('istirahat2.mp3', '.'), ('pulang.mp3', '.')],
+    binaries=[('api-ms-win-core-path-l1-1-0.dll', '.')],
+    datas=[('jam1.mp3', '.'), ('jam2.mp3', '.'), ('jam3.mp3', '.'), ('jam4.mp3', '.'), ('jam5.mp3', '.'), ('jam6.mp3', '.'), ('jam7.mp3', '.'), ('istirahat1.mp3', '.'), ('istirahat2.mp3', '.'), ('pulang.mp3', '.'), ('api-ms-win-core-path-l1-1-0.dll', '.')],
     hiddenimports=[],
     hookspath=[],
     hooksconfig={},
